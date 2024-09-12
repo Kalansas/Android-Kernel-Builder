@@ -10,12 +10,12 @@
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
+        "branch": "master-kernel-build-2022",
         "name": "gas"
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "branch": "14",
         "name": "clang"
       }
     ],
@@ -29,8 +29,8 @@
       "CC": "clang"
     },    
     "kernelSource": {
-      "name": "DogDay-KernelSU",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
+      "name": "shlwyl-KernelSU",
+      "repo": "https://github.com/Rinko-Studio/android_kernel_xiaomi_thyme",
       "branch": "lineage-20.0",
       "device": "thyme"
     },
@@ -38,12 +38,12 @@
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
+        "branch": "master-kernel-build-2022",
         "name": "gas"
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "branch": "14",
         "name": "clang"
       }
     ],
