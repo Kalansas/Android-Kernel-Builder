@@ -10,12 +10,12 @@
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
+        "branch": "master-kernel-build-2022",
         "name": "gas"
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "branch": "14",
         "name": "clang"
       }
     ],
@@ -38,12 +38,12 @@
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
+        "branch": "master-kernel-build-2022",
         "name": "gas"
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "branch": "14",
         "name": "clang"
       }
     ],
